@@ -1,5 +1,6 @@
 import scrapy
 from scrapper.items import ProductItems
+from scrapy_selenium import SeleniumRequest
 
 
 class JumiaSpider(scrapy.Spider):
@@ -15,19 +16,18 @@ class JumiaSpider(scrapy.Spider):
 
             product_url = "https://jumia.co.ke" + relative_url
 
-            yield response.follow(product_url, callback=self.parse_product_page)
+            yield SeleniumRequest(url = product_url, callback=self.parse_product_page, wait_time=5)
 
 
 
         next_page = response.css('a.pg::attr(href)').get()
         next_page_url = "https://jumia.co.ke" + next_page
 
-        yield response.follow(next_page_url, callback=self.parse)
+        yield SeleniumRequest(url = next_page_url, callback=self.parse, wait_time=5)
 
     
     def parse_product_page(self, response):
-        specifications = response.css("div.card-b ul.-pvs li.-pvxs")
-
+        
         product_item = ProductItems()
 
         product_item['product_name'] = response.css("div.col10 h1::text").get()

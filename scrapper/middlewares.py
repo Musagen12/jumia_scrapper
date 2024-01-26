@@ -101,3 +101,14 @@ class ScrapperDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+
+
+# from selenium import webdriver, HtmlResponse
+
+# class SeleniumMiddleware(object):
+#     def __init__(self):
+#         self.driver = webdriver.Chrome()
+
+#     def process_request(self, request, spider):
+#         self.driver.get(request.url)
+#         return HtmlResponse(self.driver.current_url, body=self.driver.page_source, encoding='utf-8', request=request)
