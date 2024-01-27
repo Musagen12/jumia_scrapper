@@ -25,7 +25,7 @@ class SpecificSpider(scrapy.Spider):
         product_item['product_rating'] = response.css("div.stars::text").get()
         product_item['product_image'] = response.css("a img.-fw").attrib['data-src']
         product_item['product_brand'] = response.css("div.-phs a::text").get()
-        product_item['availability'] = response.css("p.-df::text").get()
+        product_item['availability'] = response.css("p.-df::text").get() or response.css("div.-pts span::text").get()
         product_item['return_policy'] = response.css("article.-df p.-ptxs::text").get()
         product_item['warranty'] = response.css("article.-hr div.-d-co div.markup::text").get()
 
