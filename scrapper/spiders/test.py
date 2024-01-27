@@ -12,6 +12,12 @@ from scrapy.linkextractors import LinkExtractor
 class TestSpider(scrapy.Spider):
     name = "test"
 
+    custom_settings = {
+        'FEEDS': {
+            'search_data.json': {'format': 'json', 'ovewright': True}
+        }
+    }
+
     def start_requests(self):
         url = "https://www.jumia.co.ke/"
         yield scrapy.Request(url=url, callback=self.load)
