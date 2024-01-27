@@ -21,13 +21,12 @@ class ScrapperPipeline:
             if '('  in value:
                 adapter[brand] = "Brand not available"
 
-        # Activated if a product doesn't have a warranty(warranty=null)
-        warrantys = ['warranty']
+        # Activated if a product doesn't have a warranty/ availablilty data(warranty=null or availability=null)
+        warrantys = ['warranty', 'availability']
         for warranty in warrantys:
             value2 = adapter.get(warranty)
             if value2 == None:
-                adapter[warranty] = "The product doesn't have a warranty"
-
+                adapter[warranty] = "Missing data"
 
         return item
     

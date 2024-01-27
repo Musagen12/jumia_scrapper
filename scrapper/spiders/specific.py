@@ -6,7 +6,7 @@ class SpecificSpider(scrapy.Spider):
     name = "specific"
     allowed_domains = ["jumia.co.ke"]
     #place the url of a specific item
-    start_urls = ["https://www.jumia.co.ke/bulleit-bulliet-bourbon-700ml-121518976.html"]
+    start_urls = ["https://www.jumia.co.ke/black-white-black-white-whisky-750ml-49559205.html"]
 
     custom_settings = {
         'FEEDS': {
