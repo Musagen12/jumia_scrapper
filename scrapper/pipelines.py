@@ -28,6 +28,7 @@ class ScrapperPipeline:
             if value2 == None:
                 adapter[warranty] = "The product doesn't have a warranty"
 
+
         return item
     
 # class SaveIntoDb:
