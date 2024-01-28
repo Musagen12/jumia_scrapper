@@ -80,8 +80,8 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 25
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   #"scrapper.pipelines.SaveIntoDb": 200,
    "scrapper.pipelines.ScrapperPipeline": 300,
+   "scrapper.pipelines.SaveIntoDb": 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

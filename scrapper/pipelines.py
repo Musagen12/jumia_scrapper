@@ -30,57 +30,57 @@ class ScrapperPipeline:
 
         return item
     
-# class SaveIntoDb:
-#     def __init__(self):
-#         ## Connection Details
-#         hostname = 'localhost'
-#         username = 'postgres'
-#         password = 'kali' # your password
-#         database = 'scrapper'
+class SaveIntoDb:
+    def __init__(self):
+        ## Connection Details
+        hostname = 'localhost'
+        username = 'postgres'
+        password = 'kali' # your password
+        database = 'scrapper'
 
-#         ## Create/Connect to database
-#         self.connection = psycopg2.connect(host=hostname, user=username, password=password, dbname=database)
+        ## Create/Connect to database
+        self.connection = psycopg2.connect(host=hostname, user=username, password=password, dbname=database)
         
-#         ## Create cursor, used to execute commands
-#         self.cur = self.connection.cursor()
+        ## Create cursor, used to execute commands
+        self.cur = self.connection.cursor()
         
-#         ## Create able if none exists
-#         self.cur.execute("""
-#         CREATE TABLE IF NOT EXISTS jumia(
-#             id serial PRIMARY KEY, 
-#             product_name VARCHAR(255),
-#             product_price VARCHAR(255),
-#             product_url VARCHAR(255),
-#             product_rating VARCHAR(255),
-#             product_image VARCHAR(255),
-#             product_brand VARCHAR(255),
-#             availability VARCHAR(255),
-#             return_policy VARCHAR(255),
-#             warranty VARCHAR(255)
-#         )
-#         """)
+        ## Create able if none exists
+        self.cur.execute("""
+        CREATE TABLE IF NOT EXISTS jumia(
+            id serial PRIMARY KEY, 
+            product_name VARCHAR(255),
+            product_price VARCHAR(255),
+            product_url VARCHAR(255),
+            product_rating VARCHAR(255),
+            product_image VARCHAR(255),
+            product_brand VARCHAR(255),
+            availability VARCHAR(255),
+            return_policy VARCHAR(255),
+            warranty VARCHAR(255)
+        )
+        """)
 
-#     def process_item(self, item, spider):
+    def process_item(self, item, spider):
 
-#         ## Define insert statement
-#         self.cur.execute(""" insert into quotes (product_name, product_price, product_url, product_rating, product_image, product_brand, availability, return_policy, warranty) values (%s,%s,%s,%s,%s,%s,%s,%s,%s)""", (
-#             item["product_name"],
-#             item["product_price"],
-#             item["product_url"],
-#             item["product_rating"],
-#             item["product_image"],
-#             item["product_brand"],
-#             item["availability"],
-#             item["return_policy"],
-#             item["warranty"]
-#         ))
+        ## Define insert statement
+        self.cur.execute(""" insert into jumia (product_name, product_price, product_url, product_rating, product_image, product_brand, availability, return_policy, warranty) values (%s,%s,%s,%s,%s,%s,%s,%s,%s)""", (
+            item["product_name"],
+            item["product_price"],
+            item["product_url"],
+            item["product_rating"],
+            item["product_image"],
+            item["product_brand"],
+            item["availability"],
+            item["return_policy"],
+            item["warranty"]
+        ))
 
-#         ## Execute insert of data into database
-#         self.connection.commit()
-#         return item
+        ## Execute insert of data into database
+        self.connection.commit()
+        return item
 
-#     def close_spider(self, spider):
+    def close_spider(self, spider):
 
-#         ## Close cursor & connection to database 
-#         self.cur.close()
-#         self.connection.close()
+        ## Close cursor & connection to database 
+        self.cur.close()
+        self.connection.close()
