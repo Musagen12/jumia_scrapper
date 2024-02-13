@@ -29,8 +29,14 @@ FEEDS = {
     "specific_jumia_data.json": {"format": "json"}
 }
 
+SCRAPEOPS_API_KEY = "79ee6827-091a-4350-89d8-6f34c9782c53"
+SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT = "https://headers.scrapeops.io/v1/user-agents"
+SCRAPEOPS_FAKE_USER_AGENT_ENABLED = True
+SCRAPEOPS_NUM_RESULTS = 20
+SCRAPEOPS_PROXY_ENABLED = True
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "scrapper (+http://www.yourdomain.com)"
+# USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -66,10 +72,12 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 25
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    #"scrapper.middlewares.SeleniumMiddleware": 800,
-#    "scrapper.middlewares.ScrapperDownloaderMiddleware": 543,
-# }
+DOWNLOADER_MIDDLEWARES = {
+   #"scrapper.middlewares.SeleniumMiddleware": 800,
+   #"scrapper.middlewares.ScrapperDownloaderMiddleware": 543,
+#    "scrapper.middlewares.FakeBrowserHeaderAgentMiddleware": 400,
+   "scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk": 725,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -81,7 +89,7 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 25
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    "scrapper.pipelines.ScrapperPipeline": 300,
-   "scrapper.pipelines.SaveIntoDb": 400,
+#    "scrapper.pipelines.SaveIntoDb": 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -115,4 +123,4 @@ DUPEFILTER_DEBUG = True
 SCRAPYRT_TIMEOUT = 600 
 LOG_LEVEL = 'DEBUG'
 
-DOWNLOAD_TIMEOUT = 15
+DOWNLOAD_TIMEOUT = 15   

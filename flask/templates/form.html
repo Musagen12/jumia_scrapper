@@ -1,0 +1,35 @@
+<form method="get">
+   <label for="Enter your query">Enter your query</label>
+   <input name="query" id="query" required>
+   <input type="submit" value="Enter">
+</form>
+
+<br>
+
+
+<table border="1">
+   <tr >
+      <th>Product Name</th>
+      <th>Product Price</th>
+      <th>Product Url</th>
+      <th>Product Rating</th>
+      <th>Product Image</th>
+      <th>Product Brand</th>
+      <th>Availability</th>
+      <th>Return Policy</th>
+      <th>Warranty</th>
+   </tr>
+   {% for row in rows %}
+   <tr>
+      <td>{{ row.product_name }}</td>
+      <td>{{ row.product_price }}</td>
+      <td>{{ row.product_url }}</td>
+      <td>{{ row.product_rating }}</td>
+      <td>{{ row.product_image }}</td>
+      <td>{{ row.product_brand }}</td>
+      <td>{{ row.availability }}</td>
+      <td>{{ row.return_policy }}</td>
+      <td>{{ row.warranty }}</td>
+   </tr>
+   {% endfor %}
+</table>

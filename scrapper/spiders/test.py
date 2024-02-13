@@ -24,8 +24,8 @@ class TestSpider(scrapy.Spider):
 
     def load(self, response):
         # Use Selenium to get the page
-        # This can be replaced by """driver = webdriver.Firefox()"""  which uses the geckodriver
         driver = webdriver.Chrome()
+        # driver = webdriver.Firefox()
         driver.get(response.url)
 
         # Increase the timeout to 10 seconds or more
@@ -46,11 +46,22 @@ class TestSpider(scrapy.Spider):
     def parse(self, response):
         products = response.css("div.-paxs")
 
+        last_page_url = response.css('a[aria-label="Last Page"]::attr(href)').get()
+
+        if last_page_url:
+            # If there is a last page URL, extract the page number
+            last_page_number = self.extract_page_number(last_page_url)
+
+            if last_page_number:
+                # Now you have the total number of pages
+                total_pages = int(last_page_number)
+                self.log(f'Total number of pages: {total_pages}')
+
         for product in products:
             relative_url = product.css("a.core").attrib['href']
             product_url = response.urljoin(relative_url)
 
-            yield SeleniumRequest(url=product_url, callback=self.parse_product_page, wait_time=5)
+            yield SeleniumRequest(url=product_url, callback=self.parse_product_page, wait_time=5, dont_filter=True)
 
         # Follow pagination links using LinkExtractor
         le = LinkExtractor(restrict_css='a.pg')
@@ -74,40 +85,17 @@ class TestSpider(scrapy.Spider):
 
         """ scrapy crawl test -a cat="lenovo laptops" """
 
-        # http://127.0.0.1:9080/crawl.json?spider_name=test&start_requests=true&crawl_args={%22cat%22:%22lenovo%20laptops%22}
+        """ http://127.0.0.1:9080/crawl.json?spider_name=test&start_requests=true&crawl_args={'cat':'lenovo laptops'} """
 
-# import time
-# import scrapy
-# from selenium import webdriver
-# from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
-# from scrapper.items import ProductItems
-# from scrapy_selenium import SeleniumRequest
-# from scrapy.linkextractors import LinkExtractor
+    def extract_page_number(self, url):
+        # Extract the page number from the URL
+        try:
+            # Assuming the page number is part of the URL, modify this accordingly
+            # For example, if the URL is something like '/page/5/', this would extract '5'
+            page_number = url.split('/')[-2]  # Adjust this based on your URL structure
 
-# class TestSpider(scrapy.Spider):
-#     name = "test"
-
-#     custom_settings = {
-#         'FEEDS': {
-#             'search_data.json': {'format': 'json', 'overwrite': True}
-#         }
-#     }
-
-#     def __init__(self, cat=None, *args, **kwargs):
-#         super(TestSpider, self).__init__(*args, **kwargs)
-#         self.cat = cat
-
-#     def start_requests(self):
-#         url = "https://www.jumia.co.ke/"
-#         yield scrapy.Request(url=url, callback=self.load)
-
-#     def load(self, response):
-#         # Use Selenium to get the page
-#         driver = webdriver.Chrome()
-#         driver.get(response.url)
-
-#         # Increase the timeout to 10 seconds or more
-#         wait = WebDriverWait(driver, 10)
+            return int(page_number)
+        except (ValueError, IndexError):
+            # Handle cases where the page number cannot be extracted or converted to an integer
+            return None
+ 
