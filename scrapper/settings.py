@@ -29,8 +29,8 @@ FEEDS = {
     "specific_jumia_data.json": {"format": "json"}
 }
 
-SCRAPEOPS_API_KEY = "79ee6827-091a-4350-89d8-6f34c9782c53"
-SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT = "https://headers.scrapeops.io/v1/user-agents"
+SCRAPEOPS_API_KEY = "84cfe2fc-849d-489d-a4f3-bad029245877"
+SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT = "https://headers.scrapeops.io/v1/browser-headers"
 SCRAPEOPS_FAKE_USER_AGENT_ENABLED = True
 SCRAPEOPS_NUM_RESULTS = 20
 SCRAPEOPS_PROXY_ENABLED = True
@@ -89,7 +89,7 @@ DOWNLOADER_MIDDLEWARES = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    "scrapper.pipelines.ScrapperPipeline": 300,
-#    "scrapper.pipelines.SaveIntoDb": 400,
+   "scrapper.pipelines.SaveIntoDb": 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
