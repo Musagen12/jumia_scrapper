@@ -1,8 +1,13 @@
 from flask import Flask, render_template, request, jsonify
 import requests
 import json
+import psycopg2
 
 app = Flask(__name__)
+
+def db_conn():
+     conn = psycopg2.connect(database="scrapper", host="localhost", user="postgres", password="kali")
+     return conn
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -30,6 +35,17 @@ def index():
             return jsonify({"status": "error", "message": error_message}), response.status_code
 
     return render_template('form.html', rows=rows)
+
+@app.route('/logs', methods=['GET'])
+def logs():
+    conn = db_conn()
+    cur = conn.cursor()
+    cur.execute('''SELECT * FROM jumia''')
+    data = cur.fetchall()
+    cur.close()
+    conn.close()
+
+    return render_template('logs.html', data=data)
 
 
 if __name__ == '__main__':

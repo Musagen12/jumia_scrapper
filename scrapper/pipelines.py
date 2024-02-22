@@ -36,7 +36,7 @@ class SaveIntoDb:
         hostname = 'localhost'
         username = 'postgres'
         password = 'kali' # your password
-        database = 'scrapy'
+        database = 'scrapper'
 
         ## Create/Connect to database
         self.connection = psycopg2.connect(host=hostname, user=username, password=password, dbname=database)

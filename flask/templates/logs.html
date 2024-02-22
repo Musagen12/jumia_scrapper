@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+<table border="1">
+    <tr >
+       <th>Product Name</th>
+       <th>Product Price</th>
+       <th>Product Url</th>
+       <th>Product Rating</th>
+       <th>Product Image</th>
+       <th>Product Brand</th>
+       <th>Availability</th>
+       <th>Return Policy</th>
+       <th>Warranty</th>
+    </tr>
+    {% for row in data %}
+    <tr>
+       <td>{{ row[0] }}</td>
+       <td>{{ row[2] }}</td>
+       <td>{{ row[3] }}</td>
+       <td>{{ row[4] }}</td>
+       <td>{{ row[5] }}</td>
+       <td>{{ row[6] }}</td>
+       <td>{{ row[7] }}</td>
+       <td>{{ row[8] }}</td>
+       <td>{{ row[9] }}</td>
+    </tr>
+    {% endfor %}
+ </table>
