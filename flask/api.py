@@ -1,7 +1,9 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_file
 import requests
 import json
 import psycopg2
+import pandas as pd
+from io import BytesIO
 
 app = Flask(__name__)
 
@@ -36,16 +38,38 @@ def index():
 
     return render_template('form.html', rows=rows)
 
-@app.route('/logs', methods=['GET'])
+
+@app.route('/logs', methods=['GET', 'POST'])
 def logs():
+    if request.method == 'POST':
+        conn = db_conn()
+        cur = conn.cursor()
+        cur.execute('''SELECT * FROM jumia''')
+        data = cur.fetchall()
+        cur.close()
+        conn.close()
+
+        return render_template('logs.html', data=data)
+    else:
+        return "GET request received, but this endpoint only accepts POST requests"
+
+@app.route("/download")
+def convert_to_csv():
     conn = db_conn()
     cur = conn.cursor()
     cur.execute('''SELECT * FROM jumia''')
-    data = cur.fetchall()
+    rows = cur.fetchall()
     cur.close()
     conn.close()
 
-    return render_template('logs.html', data=data)
+    if not rows:
+        return "No data found"
+
+    column_names = [desc[0] for desc in cur.description]
+    df = pd.DataFrame(rows, columns=column_names)
+    csv_data = bytes(df.to_csv(index=False).encode())
+    return send_file(BytesIO(csv_data), download_name="Text.csv", as_attachment=True)
+
 
 
 if __name__ == '__main__':
