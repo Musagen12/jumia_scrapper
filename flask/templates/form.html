@@ -18,10 +18,21 @@
    <button type="submit">Download logs</button>
 </form>
 
-<br>
-<br>
-<br>
 
+<form id="try" action="/price_tracking" method="get">
+   <button type="submit">Try</button>
+</form>
+
+
+<br>
+<br>
+<br>
+<h1>Add Tracked Item</h1>
+    <form id="add_tracked" action="/add_tracked_item" method="post">
+       <label for="url">Enter the URL of the item to be tracked:</label><br>
+       <input type="url" name="url" id="url" required><br><br>
+       <input type="submit" value="Add">
+    </form>
 <table border="1">
    <tr >
       <th>Product Name</th>

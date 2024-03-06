@@ -1,0 +1,12 @@
+2024-03-05 15:35:08 [scrapy] INFO: Closing spider (finished)
+2024-03-05 15:35:08 [scrapy] INFO: Stored json feed (0 items) in: tracked_item_data.json
+2024-03-05 15:35:08 [scrapy] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.00336,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 5, 13, 35, 8, 278287, tzinfo=datetime.timezone.utc),
+ 'log_count/INFO': 8,
+ 'memusage/max': 78471168,
+ 'memusage/startup': 78471168,
+ 'start_time': datetime.datetime(2024, 3, 5, 13, 35, 8, 274927, tzinfo=datetime.timezone.utc)}
+2024-03-05 15:35:08 [scrapy] INFO: Spider closed (finished)

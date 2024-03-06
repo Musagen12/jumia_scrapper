@@ -1,0 +1,102 @@
+2024-03-05 13:33:05 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/> (referer: None) ['cached']
+2024-03-05 13:34:17 [scrapy] ERROR: Spider error processing <GET https://www.jumia.co.ke/> (referer: None)
+Traceback (most recent call last):
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
+    yield next(it)
+          ^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/utils/python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/spidermiddlewares/referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/spidermiddlewares/urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "/home/colonel/jumia_scrapper/scrapper/spiders/test.py", line 34, in load
+    search_box = wait.until(EC.element_to_be_clickable((By.NAME, "q")))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/selenium/webdriver/support/expected_conditions.py", line 363, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.94)
+Stacktrace:
+#0 0x564a8f451e93 <unknown>
+#1 0x564a8f149ce6 <unknown>
+#2 0x564a8f1208cd <unknown>
+#3 0x564a8f1bf76d <unknown>
+#4 0x564a8f1d5226 <unknown>
+#5 0x564a8f1b6c53 <unknown>
+#6 0x564a8f187db3 <unknown>
+#7 0x564a8f18877e <unknown>
+#8 0x564a8f4177cb <unknown>
+#9 0x564a8f41b7e5 <unknown>
+#10 0x564a8f4050e1 <unknown>
+#11 0x564a8f41c372 <unknown>
+#12 0x564a8f3e91bf <unknown>
+#13 0x564a8f440488 <unknown>
+#14 0x564a8f440683 <unknown>
+#15 0x564a8f451044 <unknown>
+#16 0x7fd31570e134 <unknown>
+
+2024-03-05 13:34:19 [scrapy] INFO: Closing spider (finished)
+2024-03-05 13:34:20 [scrapy] INFO: Stored json feed (0 items) in: search_data.json
+2024-03-05 13:34:21 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 216,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 64275,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 75.001104,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 5, 11, 34, 20, 265773, tzinfo=datetime.timezone.utc),
+ 'httpcache/hit': 1,
+ 'httpcompression/response_bytes': 402783,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 21,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 89661440,
+ 'memusage/startup': 80719872,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/NoSuchWindowException': 1,
+ 'start_time': datetime.datetime(2024, 3, 5, 11, 33, 5, 264669, tzinfo=datetime.timezone.utc)}
+2024-03-05 13:34:21 [scrapy] INFO: Spider closed (finished)

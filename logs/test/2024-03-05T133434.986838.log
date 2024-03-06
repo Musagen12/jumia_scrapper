@@ -1,0 +1,915 @@
+2024-03-05 13:34:36 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/> (referer: None) ['cached']
+2024-03-05 13:35:35 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/)
+2024-03-05 13:35:38 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo)
+2024-03-05 13:35:39 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-yoga-thinkpad-11e-x360-intel-celeron-4gb-ram-128gb-ssd-11.6-hdmi-camera-touchscreen-refurbished-164142402.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo)
+2024-03-05 13:35:41 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-yoga-thinkpad-11e-x360-intel-celeron-4gb-ram-128gb-ssd-11.6-hdmi-camera-touchscreen-refurbished-164142402.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/4241461/1.jpg?6718',
+ 'product_name': 'Lenovo  Yoga Thinkpad 11e X360 Intel Celeron 4GB RAM 128GB '
+                 'SSD 11.6" HDMI-Camera - Touchscreen - Refurbished',
+ 'product_price': 'KSh 17,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-yoga-thinkpad-11e-x360-intel-celeron-4gb-ram-128gb-ssd-11.6-hdmi-camera-touchscreen-refurbished-164142402.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:35:46 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo)
+2024-03-05 13:35:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=2)
+2024-03-05 13:35:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=2)
+2024-03-05 13:35:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=2)
+2024-03-05 13:35:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=2)
+2024-03-05 13:35:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=2)
+2024-03-05 13:35:52 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo)
+2024-03-05 13:35:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=50)
+2024-03-05 13:35:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=50)
+2024-03-05 13:36:01 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo)
+2024-03-05 13:36:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=3)
+2024-03-05 13:36:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=3)
+2024-03-05 13:36:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=2#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=3)
+2024-03-05 13:36:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=3)
+2024-03-05 13:36:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=3)
+2024-03-05 13:36:08 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/refurbished-thinkpad-x131e-12.5-intel-celeron-4g-ram-500gb-hdd-black-lenovo-mpg433469.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=2)
+2024-03-05 13:36:09 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/refurbished-thinkpad-x131e-12.5-intel-celeron-4g-ram-500gb-hdd-black-lenovo-mpg433469.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/98/393803/1.jpg?6590',
+ 'product_name': 'Lenovo Refurbished Thinkpad X131e 12.5" Intel Celeron 4G '
+                 'RAM, 500GB HDD - Black',
+ 'product_price': 'KSh 21,300',
+ 'product_rating': '3.3 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/refurbished-thinkpad-x131e-12.5-intel-celeron-4g-ram-500gb-hdd-black-lenovo-mpg433469.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 Months'}
+2024-03-05 13:36:16 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-big-pin-laptop-charger-20v3.25a-65w-156252975.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=50)
+2024-03-05 13:36:17 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-big-pin-laptop-charger-20v3.25a-65w-156252975.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/9252651/1.jpg?3350',
+ 'product_name': 'Lenovo Big Pin Laptop Charger 20V3.25A, 65W',
+ 'product_price': 'KSh 2,000',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-big-pin-laptop-charger-20v3.25a-65w-156252975.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:36:27 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=50)
+2024-03-05 13:36:28 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=48)
+2024-03-05 13:36:28 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=48)
+2024-03-05 13:36:28 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=48)
+2024-03-05 13:36:28 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=48)
+2024-03-05 13:36:28 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=48)
+2024-03-05 13:36:32 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=49#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=50)
+2024-03-05 13:36:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=49)
+2024-03-05 13:36:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=49)
+2024-03-05 13:36:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=49)
+2024-03-05 13:36:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=49)
+2024-03-05 13:36:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=49)
+2024-03-05 13:36:37 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-he05-magnetic-neckband-headphones-for-android-ios-125993233.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=3)
+2024-03-05 13:36:37 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-he05-magnetic-neckband-headphones-for-android-ios-125993233.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/33/2399521/1.jpg?2480',
+ 'product_name': 'Lenovo HE05 Magnetic Neckband Headphones For Android IOS',
+ 'product_price': 'KSh 599',
+ 'product_rating': '4 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-he05-magnetic-neckband-headphones-for-android-ios-125993233.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:36:44 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=3)
+2024-03-05 13:36:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=4)
+2024-03-05 13:36:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=4)
+2024-03-05 13:36:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=3#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=4)
+2024-03-05 13:36:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=4)
+2024-03-05 13:36:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=4)
+2024-03-05 13:36:53 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-45n1760-45n1762-thinkpad-e55020dfa008cd-laptop-battery-185762179.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=48)
+2024-03-05 13:36:53 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-45n1760-45n1762-thinkpad-e55020dfa008cd-laptop-battery-185762179.html>
+{'availability': '1 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/1267581/1.jpg?4088',
+ 'product_name': 'Lenovo 45N1760, 45N1762 ThinkPad E550(20DFA008CD) Laptop '
+                 'Battery',
+ 'product_price': 'KSh 6,720',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-45n1760-45n1762-thinkpad-e55020dfa008cd-laptop-battery-185762179.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:36:59 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=48)
+2024-03-05 13:36:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=47)
+2024-03-05 13:36:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=47)
+2024-03-05 13:36:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=47)
+2024-03-05 13:36:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=48#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=47)
+2024-03-05 13:36:59 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=47)
+2024-03-05 13:37:06 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-45w-ac-laptop-charger-adapter-for-lenovo-usb-tip-115740081.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=49)
+2024-03-05 13:37:06 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-45w-ac-laptop-charger-adapter-for-lenovo-usb-tip-115740081.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/18/0047511/1.jpg?1941',
+ 'product_name': 'Lenovo 45W  AC Laptop Charger Adapter  For Lenovo USB Tip',
+ 'product_price': 'KSh 4,300',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-45w-ac-laptop-charger-adapter-for-lenovo-usb-tip-115740081.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:37:11 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-refurbished-thinkcentre-m91p-cpu-intel-core-i5-3.1ghz-8gb-ram-500gb-hdd-22-monitor-70463957.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=4)
+2024-03-05 13:37:11 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-refurbished-thinkcentre-m91p-cpu-intel-core-i5-3.1ghz-8gb-ram-500gb-hdd-22-monitor-70463957.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/75/936407/1.jpg?7966',
+ 'product_name': 'Lenovo Refurbished ThinkCentre M91p CPU - Intel Core I5 '
+                 '3.1GHz, 8GB Ram - 500GB HDD + 22" Monitor',
+ 'product_price': 'KSh 24,999',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-refurbished-thinkcentre-m91p-cpu-intel-core-i5-3.1ghz-8gb-ram-500gb-hdd-22-monitor-70463957.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 Months Warranty'}
+2024-03-05 13:37:18 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=4)
+2024-03-05 13:37:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=5)
+2024-03-05 13:37:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=5)
+2024-03-05 13:37:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=4#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=5)
+2024-03-05 13:37:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=5)
+2024-03-05 13:37:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=5)
+2024-03-05 13:37:28 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-xg01-dual-microphone-bluetooth-gaming-earphone-white-156173852.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=47)
+2024-03-05 13:37:28 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-xg01-dual-microphone-bluetooth-gaming-earphone-white-156173852.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/8371651/1.jpg?1994',
+ 'product_name': 'Lenovo XG01 Dual Microphone Bluetooth Gaming Earphone  '
+                 '(White)',
+ 'product_price': 'KSh 4,099',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-xg01-dual-microphone-bluetooth-gaming-earphone-white-156173852.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:37:34 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=47)
+2024-03-05 13:37:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=46)
+2024-03-05 13:37:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=46)
+2024-03-05 13:37:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=46)
+2024-03-05 13:37:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=47#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=46)
+2024-03-05 13:37:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=46)
+2024-03-05 13:37:42 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lp7-bluetooth-5.0-earbuds-true-wireless-headphones-with-dual-mic-ear-hook-earphone-twins-sports-headset-charging-box-battery-display-ipx5-waterproof-45888285.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=5)
+2024-03-05 13:37:42 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lp7-bluetooth-5.0-earbuds-true-wireless-headphones-with-dual-mic-ear-hook-earphone-twins-sports-headset-charging-box-battery-display-ipx5-waterproof-45888285.html>
+{'availability': '9 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/58/288854/1.jpg?7365',
+ 'product_name': 'Lenovo LP7 Bluetooth 5.0 Earbuds True Wireless Headphones '
+                 'With Dual Mic Ear-hook Earphone Twins Sports Headset '
+                 'Charging Box Battery Display IPX5 Waterproof',
+ 'product_price': 'KSh 4,525',
+ 'product_rating': '4 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lp7-bluetooth-5.0-earbuds-true-wireless-headphones-with-dual-mic-ear-hook-earphone-twins-sports-headset-charging-box-battery-display-ipx5-waterproof-45888285.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:37:48 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=5)
+2024-03-05 13:37:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=6)
+2024-03-05 13:37:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=6)
+2024-03-05 13:37:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=5#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=6)
+2024-03-05 13:37:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=6)
+2024-03-05 13:37:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=6)
+2024-03-05 13:37:53 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-xt93-bluetooth-5.2-hifi-bass-stereo-sports-headphones-black-123745985.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=46)
+2024-03-05 13:37:53 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-xt93-bluetooth-5.2-hifi-bass-stereo-sports-headphones-black-123745985.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/58/9547321/1.jpg?7758',
+ 'product_name': 'Lenovo XT93 Bluetooth 5.2 Hifi Bass Stereo Sports Headphones '
+                 'Black',
+ 'product_price': 'KSh 1,528',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-xt93-bluetooth-5.2-hifi-bass-stereo-sports-headphones-black-123745985.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:38:02 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=46)
+2024-03-05 13:38:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=45)
+2024-03-05 13:38:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=45)
+2024-03-05 13:38:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=45)
+2024-03-05 13:38:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=46#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=45)
+2024-03-05 13:38:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=45)
+2024-03-05 13:38:09 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-refurbished-t440-intel-core-i5-4gb-ram-500gb-black-free-bag-156799101.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=6)
+2024-03-05 13:38:09 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-refurbished-t440-intel-core-i5-4gb-ram-500gb-black-free-bag-156799101.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/10/1997651/1.jpg?5752',
+ 'product_name': 'Lenovo Refurbished T440 Intel Core I5-4GB RAM-500GB- Black+ '
+                 'FREE BAG',
+ 'product_price': 'KSh 25,100',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-refurbished-t440-intel-core-i5-4gb-ram-500gb-black-free-bag-156799101.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 MONTHS WARRANTY'}
+2024-03-05 13:38:16 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=6)
+2024-03-05 13:38:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=7)
+2024-03-05 13:38:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=7)
+2024-03-05 13:38:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=6#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=7)
+2024-03-05 13:38:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=7)
+2024-03-05 13:38:16 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=7)
+2024-03-05 13:38:29 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-xg01-earphones-wireless-bluetooth-5.0-headphone-179703402.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=45)
+2024-03-05 13:38:29 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-xg01-earphones-wireless-bluetooth-5.0-headphone-179703402.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/4307971/1.jpg?0724',
+ 'product_name': 'Lenovo XG01 Earphones Wireless Bluetooth 5.0 Headphone',
+ 'product_price': 'KSh 2,971',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-xg01-earphones-wireless-bluetooth-5.0-headphone-179703402.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:38:36 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=45)
+2024-03-05 13:38:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=44)
+2024-03-05 13:38:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=44)
+2024-03-05 13:38:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=44)
+2024-03-05 13:38:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=45#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=44)
+2024-03-05 13:38:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=44)
+2024-03-05 13:38:38 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/thinkpad-x260-intel-core-i5-8gb-ram-256gb-ssd-12.5-refurbished-lenovo-mpg1813988.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=7)
+2024-03-05 13:38:38 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/thinkpad-x260-intel-core-i5-8gb-ram-256gb-ssd-12.5-refurbished-lenovo-mpg1813988.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/18/2577661/1.jpg?7654',
+ 'product_name': 'Lenovo  ThinkPad X260 Intel Core I5, 8GB RAM, 256GB SSD, '
+                 "12.5'' REFURBISHED",
+ 'product_price': 'KSh 22,499',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/thinkpad-x260-intel-core-i5-8gb-ram-256gb-ssd-12.5-refurbished-lenovo-mpg1813988.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 months'}
+2024-03-05 13:38:46 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=7)
+2024-03-05 13:38:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=8)
+2024-03-05 13:38:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=8)
+2024-03-05 13:38:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=7#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=8)
+2024-03-05 13:38:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=8)
+2024-03-05 13:38:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=8)
+2024-03-05 13:38:53 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lp1s-true-wireless-headphones-bt-5.0-mini-headphone-179701250.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=44)
+2024-03-05 13:38:54 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lp1s-true-wireless-headphones-bt-5.0-mini-headphone-179701250.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/05/2107971/1.jpg?0620',
+ 'product_name': 'Lenovo LP1S True Wireless Headphones BT 5.0 Mini Headphone',
+ 'product_price': 'KSh 1,945',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lp1s-true-wireless-headphones-bt-5.0-mini-headphone-179701250.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:39:02 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=44)
+2024-03-05 13:39:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=43)
+2024-03-05 13:39:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=43)
+2024-03-05 13:39:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=43)
+2024-03-05 13:39:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=44#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=43)
+2024-03-05 13:39:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=43)
+2024-03-05 13:39:08 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/thinkpad-x270-refurbished-intel-core-i5-8-gb-ram-256-gb-ssd-12.5-black-lenovo-mpg1964993.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=8)
+2024-03-05 13:39:08 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/thinkpad-x270-refurbished-intel-core-i5-8-gb-ram-256-gb-ssd-12.5-black-lenovo-mpg1964993.html>
+{'availability': '9 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/9834371/1.jpg?5172',
+ 'product_name': 'Lenovo Thinkpad X270  Refurbished Intel Core I5 8 GB RAM 256 '
+                 "GB SSD 12.5'' Black",
+ 'product_price': 'KSh 24,789',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/thinkpad-x270-refurbished-intel-core-i5-8-gb-ram-256-gb-ssd-12.5-black-lenovo-mpg1964993.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:39:17 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=8)
+2024-03-05 13:39:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=9)
+2024-03-05 13:39:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=9)
+2024-03-05 13:39:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=8#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=9)
+2024-03-05 13:39:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=9)
+2024-03-05 13:39:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=9)
+2024-03-05 13:39:23 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-laptop-charger-complete-with-cable-20v-3.25a-small-pin.-156918299.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=43)
+2024-03-05 13:39:24 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-laptop-charger-complete-with-cable-20v-3.25a-small-pin.-156918299.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/2819651/1.jpg?2340',
+ 'product_name': 'Lenovo Laptop Charger Complete With Cable - 20V 3.25A Small '
+                 'Pin.',
+ 'product_price': 'KSh 2,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-laptop-charger-complete-with-cable-20v-3.25a-small-pin.-156918299.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:39:34 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=43)
+2024-03-05 13:39:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=42)
+2024-03-05 13:39:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=42)
+2024-03-05 13:39:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=42)
+2024-03-05 13:39:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=43#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=42)
+2024-03-05 13:39:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=42)
+2024-03-05 13:39:37 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-pad-10.6-inch-2022-wifi-tablet-4gb128gb-android-12-140356068.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=9)
+2024-03-05 13:39:37 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-pad-10.6-inch-2022-wifi-tablet-4gb128gb-android-12-140356068.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/86/0653041/1.jpg?0380',
+ 'product_name': 'Lenovo Pad 10.6 Inch 2022 WiFi Tablet, 4GB+128GB, Android 12',
+ 'product_price': 'KSh 32,999',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-pad-10.6-inch-2022-wifi-tablet-4gb128gb-android-12-140356068.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:39:41 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=9)
+2024-03-05 13:39:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=10)
+2024-03-05 13:39:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=10)
+2024-03-05 13:39:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=9#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=10)
+2024-03-05 13:39:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=10)
+2024-03-05 13:39:41 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=10)
+2024-03-05 13:39:48 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-laptop-charger-20v-3.25a-65w-usb-pin-with-power-cable.-122632902.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=42)
+2024-03-05 13:39:48 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-laptop-charger-20v-3.25a-65w-usb-pin-with-power-cable.-122632902.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/9236221/1.jpg?9925',
+ 'product_name': 'Lenovo Laptop Charger 20V 3.25A 65W USB Pin With Power '
+                 'Cable.',
+ 'product_price': 'KSh 7,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-laptop-charger-20v-3.25a-65w-usb-pin-with-power-cable.-122632902.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:39:53 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=42)
+2024-03-05 13:39:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=41)
+2024-03-05 13:39:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=41)
+2024-03-05 13:39:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=41)
+2024-03-05 13:39:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=42#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=41)
+2024-03-05 13:39:53 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=41)
+2024-03-05 13:40:01 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-laptop-adapter-20v-3.25a-65w-big-pin-179526239.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=10)
+2024-03-05 13:40:01 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-laptop-adapter-20v-3.25a-65w-big-pin-179526239.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/93/2625971/1.jpg?7955',
+ 'product_name': 'Lenovo Laptop Adapter 20V 3.25A (65W) Big Pin',
+ 'product_price': 'KSh 1,250',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-laptop-adapter-20v-3.25a-65w-big-pin-179526239.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:40:06 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=10)
+2024-03-05 13:40:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=11)
+2024-03-05 13:40:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=11)
+2024-03-05 13:40:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=10#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=11)
+2024-03-05 13:40:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=11)
+2024-03-05 13:40:06 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=11)
+2024-03-05 13:40:13 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-thinkpad-t460-t460s-20v-3.25a-usb-charger-100088150.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=41)
+2024-03-05 13:40:14 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-thinkpad-t460-t460s-20v-3.25a-usb-charger-100088150.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/05/1880001/1.jpg?7038',
+ 'product_name': 'Lenovo ThinkPad T460, T460s, 20V 3.25A USB Charger',
+ 'product_price': 'KSh 1,099',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-thinkpad-t460-t460s-20v-3.25a-usb-charger-100088150.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:40:18 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=41)
+2024-03-05 13:40:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=40)
+2024-03-05 13:40:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=40)
+2024-03-05 13:40:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=40)
+2024-03-05 13:40:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=41#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=40)
+2024-03-05 13:40:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=40)
+2024-03-05 13:40:25 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-legion-mousepad-71247667.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=11)
+2024-03-05 13:40:25 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-legion-mousepad-71247667.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/76/674217/1.jpg?1326',
+ 'product_name': 'Lenovo Legion Mousepad',
+ 'product_price': 'KSh 450',
+ 'product_rating': '3 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-legion-mousepad-71247667.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:40:34 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=11)
+2024-03-05 13:40:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=12)
+2024-03-05 13:40:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=12)
+2024-03-05 13:40:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=11#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=12)
+2024-03-05 13:40:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=12)
+2024-03-05 13:40:34 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=12)
+2024-03-05 13:40:39 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-laptop-charger-complete-with-cable-20v-3.25a-small-pin.-129538796.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=40)
+2024-03-05 13:40:39 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-laptop-charger-complete-with-cable-20v-3.25a-small-pin.-129538796.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/69/7835921/1.jpg?4773',
+ 'product_name': 'Lenovo Laptop Charger Complete With Cable - 20V 3.25A Small '
+                 'Pin.',
+ 'product_price': 'KSh 3,000',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-laptop-charger-complete-with-cable-20v-3.25a-small-pin.-129538796.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:40:48 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=40)
+2024-03-05 13:40:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=39)
+2024-03-05 13:40:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=39)
+2024-03-05 13:40:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=39)
+2024-03-05 13:40:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=40#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=39)
+2024-03-05 13:40:48 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=39)
+2024-03-05 13:40:55 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lp40-wireless-bluetooth-livepods-earphones-white-132256624.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=12)
+2024-03-05 13:40:56 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lp40-wireless-bluetooth-livepods-earphones-white-132256624.html>
+{'availability': '2 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/6652231/1.jpg?0668',
+ 'product_name': 'Lenovo LP40 Wireless Bluetooth Livepods Earphones- White',
+ 'product_price': 'KSh 1,997',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lp40-wireless-bluetooth-livepods-earphones-white-132256624.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:41:02 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=12)
+2024-03-05 13:41:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=13)
+2024-03-05 13:41:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=13)
+2024-03-05 13:41:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=12#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=13)
+2024-03-05 13:41:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=13)
+2024-03-05 13:41:02 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=13)
+2024-03-05 13:41:08 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-type-c-laptop-charger-20v-3.25a-65w-complete-with-power-cable.-153673301.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=39)
+2024-03-05 13:41:09 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-type-c-laptop-charger-20v-3.25a-65w-complete-with-power-cable.-153673301.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/10/3376351/1.jpg?9245',
+ 'product_name': 'Lenovo TYPE-C LAPTOP CHARGER 20V 3.25A 65W COMPLETE WITH '
+                 'POWER CABLE.',
+ 'product_price': 'KSh 4,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-type-c-laptop-charger-20v-3.25a-65w-complete-with-power-cable.-153673301.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:41:18 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=39)
+2024-03-05 13:41:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=38)
+2024-03-05 13:41:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=38)
+2024-03-05 13:41:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=38)
+2024-03-05 13:41:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=39#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=38)
+2024-03-05 13:41:18 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=38)
+2024-03-05 13:41:22 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-bt-wireless-headphones-179679587.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=13)
+2024-03-05 13:41:22 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-bt-wireless-headphones-179679587.html>
+{'availability': '8 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/78/5976971/1.jpg?8113',
+ 'product_name': 'Lenovo BT WIRELESS HEADPHONES',
+ 'product_price': 'KSh 2,999',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-bt-wireless-headphones-179679587.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 months'}
+2024-03-05 13:41:32 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=13)
+2024-03-05 13:41:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=14)
+2024-03-05 13:41:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=14)
+2024-03-05 13:41:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=13#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=14)
+2024-03-05 13:41:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=14)
+2024-03-05 13:41:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=14)
+2024-03-05 13:41:41 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lenovo-wireless-mouse-air-handle-with-4000dpi-2.4g-mouse-163582084.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=38)
+2024-03-05 13:41:41 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lenovo-wireless-mouse-air-handle-with-4000dpi-2.4g-mouse-163582084.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/0285361/1.jpg?2522',
+ 'product_name': 'Lenovo Lenovo Wireless Mouse Air Handle With 4000dpi 2.4g '
+                 'mouse',
+ 'product_price': 'KSh 4,043',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lenovo-wireless-mouse-air-handle-with-4000dpi-2.4g-mouse-163582084.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:41:48 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=38)
+2024-03-05 13:41:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=37)
+2024-03-05 13:41:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=37)
+2024-03-05 13:41:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=37)
+2024-03-05 13:41:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=38#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=37)
+2024-03-05 13:41:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=37)
+2024-03-05 13:41:55 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-refurbished-t540p-intelr-coretm-i7-4600m-cpu-at2.90ghz2.90ghz-8gb-ram-128gb-ssd-black-169160365.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=14)
+2024-03-05 13:41:55 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-refurbished-t540p-intelr-coretm-i7-4600m-cpu-at2.90ghz2.90ghz-8gb-ram-128gb-ssd-black-169160365.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/3061961/1.jpg?9764',
+ 'product_name': 'Lenovo Refurbished T540p Intel(R) Core(TM) i7-4600m CPU '
+                 '@2.90Ghz,2.90GHz 8GB RAM 128GB SSD Black',
+ 'product_price': 'KSh 35,900',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-refurbished-t540p-intelr-coretm-i7-4600m-cpu-at2.90ghz2.90ghz-8gb-ram-128gb-ssd-black-169160365.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 months from the date of purchase'}
+2024-03-05 13:42:03 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=14)
+2024-03-05 13:42:03 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=15)
+2024-03-05 13:42:03 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=15)
+2024-03-05 13:42:03 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=14#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=15)
+2024-03-05 13:42:03 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=15)
+2024-03-05 13:42:03 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=15)
+2024-03-05 13:42:10 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lenovo-m120-usb-wired-optical-mouse-1000dpi-optical-mouse-163939472.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=37)
+2024-03-05 13:42:10 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lenovo-m120-usb-wired-optical-mouse-1000dpi-optical-mouse-163939472.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/4939361/1.jpg?4113',
+ 'product_name': 'Lenovo Lenovo M120 Usb Wired Optical Mouse 1000dpi Optical '
+                 'mouse',
+ 'product_price': 'KSh 3,466',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lenovo-m120-usb-wired-optical-mouse-1000dpi-optical-mouse-163939472.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:42:19 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=37)
+2024-03-05 13:42:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=36)
+2024-03-05 13:42:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=36)
+2024-03-05 13:42:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=36)
+2024-03-05 13:42:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=37#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=36)
+2024-03-05 13:42:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=36)
+2024-03-05 13:42:27 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-battery-thinkpad-t440s-t450s-t460-x240-x240s-122772007.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=15)
+2024-03-05 13:42:27 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-battery-thinkpad-t440s-t450s-t460-x240-x240s-122772007.html>
+{'availability': '3 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/70/0277221/1.jpg?7247',
+ 'product_name': 'Lenovo Battery ThinkPad T440S T450S T460 X240 X240S',
+ 'product_price': 'KSh 4,499',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-battery-thinkpad-t440s-t450s-t460-x240-x240s-122772007.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '3months'}
+2024-03-05 13:42:32 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=15)
+2024-03-05 13:42:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=16)
+2024-03-05 13:42:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=16)
+2024-03-05 13:42:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=15#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=16)
+2024-03-05 13:42:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=16)
+2024-03-05 13:42:32 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=16)
+2024-03-05 13:42:39 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lenovo-thinklife-m202-wireless-mini-computer-mouse-mouse-165015184.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=36)
+2024-03-05 13:42:40 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lenovo-thinklife-m202-wireless-mini-computer-mouse-mouse-165015184.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/1510561/1.jpg?5985',
+ 'product_name': 'Lenovo Lenovo Thinklife M202 Wireless Mini Computer Mouse '
+                 'mouse',
+ 'product_price': 'KSh 3,572',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lenovo-thinklife-m202-wireless-mini-computer-mouse-mouse-165015184.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:42:46 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=36)
+2024-03-05 13:42:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=35)
+2024-03-05 13:42:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=35)
+2024-03-05 13:42:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=35)
+2024-03-05 13:42:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=36#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=35)
+2024-03-05 13:42:46 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=35)
+2024-03-05 13:42:55 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-pad-plus-2023-wifi-tablet-11.5-inch-6gb128gb-android-12-104521809.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=16)
+2024-03-05 13:42:55 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-pad-plus-2023-wifi-tablet-11.5-inch-6gb128gb-android-12-104521809.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/90/8125401/1.jpg?4803',
+ 'product_name': 'Lenovo Pad Plus 2023 WiFi Tablet, 11.5 Inch, 6GB+128GB '
+                 'Android 12',
+ 'product_price': 'KSh 51,399',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-pad-plus-2023-wifi-tablet-11.5-inch-6gb128gb-android-12-104521809.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:43:05 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=16)
+2024-03-05 13:43:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=17)
+2024-03-05 13:43:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=17)
+2024-03-05 13:43:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=16#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=17)
+2024-03-05 13:43:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=17)
+2024-03-05 13:43:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=17)
+2024-03-05 13:43:10 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lenovo-m101-mouse-usb-wired-ergonomic-desk-lap-mouse-mouse-163786239.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=35)
+2024-03-05 13:43:10 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lenovo-m101-mouse-usb-wired-ergonomic-desk-lap-mouse-mouse-163786239.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/93/2687361/1.jpg?9502',
+ 'product_name': 'Lenovo Lenovo M101 Mouse Usb Wired Ergonomic Desk Lap Mouse '
+                 'mouse',
+ 'product_price': 'KSh 3,070',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lenovo-m101-mouse-usb-wired-ergonomic-desk-lap-mouse-mouse-163786239.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:43:19 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=35)
+2024-03-05 13:43:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=34)
+2024-03-05 13:43:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=34)
+2024-03-05 13:43:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=34)
+2024-03-05 13:43:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=35#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=34)
+2024-03-05 13:43:19 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=34)
+2024-03-05 13:43:22 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-laptop-charger-complete-with-cable.-117445163.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=17)
+2024-03-05 13:43:22 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-laptop-charger-complete-with-cable.-117445163.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/1544711/1.jpg?9049',
+ 'product_name': 'Lenovo Laptop Charger Complete With Cable.',
+ 'product_price': 'KSh 2,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-laptop-charger-complete-with-cable.-117445163.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:43:29 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=17)
+2024-03-05 13:43:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=18)
+2024-03-05 13:43:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=18)
+2024-03-05 13:43:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=17#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=18)
+2024-03-05 13:43:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=18)
+2024-03-05 13:43:29 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=18)
+2024-03-05 13:43:34 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-livepods-lp3-true-wireless-stereo-earphone-bt5.0wdual-moving-coildigital-display-fast-flash-charging-supported-waterproof-in-ear-headphone-51291592.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=34)
+2024-03-05 13:43:34 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-livepods-lp3-true-wireless-stereo-earphone-bt5.0wdual-moving-coildigital-display-fast-flash-charging-supported-waterproof-in-ear-headphone-51291592.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/29/519215/1.jpg?2343',
+ 'product_name': 'Lenovo LivePods LP3 True Wireless Stereo Earphone '
+                 'BT5.0w/Dual Moving Coil/Digital Display Fast Flash Charging '
+                 'Supported Waterproof In-Ear Headphone',
+ 'product_price': 'KSh 3,440',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-livepods-lp3-true-wireless-stereo-earphone-bt5.0wdual-moving-coildigital-display-fast-flash-charging-supported-waterproof-in-ear-headphone-51291592.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:43:43 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=34)
+2024-03-05 13:43:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=33)
+2024-03-05 13:43:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=33)
+2024-03-05 13:43:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=33)
+2024-03-05 13:43:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=34#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=33)
+2024-03-05 13:43:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=33)
+2024-03-05 13:43:49 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lp40-pro-bluetooth-5.1-waterproof-sports-earbuds-with-silicon-rubbers-126026376.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=18)
+2024-03-05 13:43:49 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lp40-pro-bluetooth-5.1-waterproof-sports-earbuds-with-silicon-rubbers-126026376.html>
+{'availability': '1 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/3620621/1.jpg?3803',
+ 'product_name': 'Lenovo LP40 Pro Bluetooth 5.1 Waterproof Sports Earbuds With '
+                 'Silicon Rubbers',
+ 'product_price': 'KSh 2,890',
+ 'product_rating': '5 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lp40-pro-bluetooth-5.1-waterproof-sports-earbuds-with-silicon-rubbers-126026376.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:43:55 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=18)
+2024-03-05 13:43:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=19)
+2024-03-05 13:43:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=19)
+2024-03-05 13:43:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=18#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=19)
+2024-03-05 13:43:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=19)
+2024-03-05 13:43:55 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=19)
+2024-03-05 13:44:03 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lp40-pro-wireless-bt5.1-headphones-semi-in-ear-185310003.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=33)
+2024-03-05 13:44:03 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lp40-pro-wireless-bt5.1-headphones-semi-in-ear-185310003.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/30/0013581/1.jpg?4992',
+ 'product_name': 'Lenovo LP40 PRO Wireless BT5.1 Headphones Semi-in-ear',
+ 'product_price': 'KSh 1,600',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lp40-pro-wireless-bt5.1-headphones-semi-in-ear-185310003.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:44:10 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=33)
+2024-03-05 13:44:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=32)
+2024-03-05 13:44:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=32)
+2024-03-05 13:44:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=32)
+2024-03-05 13:44:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=33#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=32)
+2024-03-05 13:44:10 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=32)
+2024-03-05 13:44:18 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-laptop-thinkpad-t430-charger-20v-3.25a-65w-complete-with-power-cable-100393760.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=19)
+2024-03-05 13:44:18 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-laptop-thinkpad-t430-charger-20v-3.25a-65w-complete-with-power-cable-100393760.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/06/7393001/1.jpg?7175',
+ 'product_name': 'Lenovo Laptop Thinkpad T430  Charger 20V 3.25A 65W - '
+                 'Complete  With Power Cable',
+ 'product_price': 'KSh 1,299',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-laptop-thinkpad-t430-charger-20v-3.25a-65w-complete-with-power-cable-100393760.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:44:23 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=19)
+2024-03-05 13:44:24 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=20)
+2024-03-05 13:44:24 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=20)
+2024-03-05 13:44:24 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=19#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=20)
+2024-03-05 13:44:24 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=20)
+2024-03-05 13:44:24 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=20)
+2024-03-05 13:44:30 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-laptop-charger-20v-3.25a-65w-usb-pin-126442449.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=32)
+2024-03-05 13:44:30 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-laptop-charger-20v-3.25a-65w-usb-pin-126442449.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/4244621/1.jpg?6412',
+ 'product_name': 'Lenovo Laptop Charger 20V 3.25A 65W USB Pin',
+ 'product_price': 'KSh 1,200',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-laptop-charger-20v-3.25a-65w-usb-pin-126442449.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:44:37 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=32)
+2024-03-05 13:44:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=31)
+2024-03-05 13:44:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=31)
+2024-03-05 13:44:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=31)
+2024-03-05 13:44:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=32#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=31)
+2024-03-05 13:44:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=31)
+2024-03-05 13:44:43 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-laptop-thinkpad-x140e-charger-20v-3.25a-65w-complete-with-power-cable-100393763.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=20)
+2024-03-05 13:44:43 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-laptop-thinkpad-x140e-charger-20v-3.25a-65w-complete-with-power-cable-100393763.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/7393001/1.jpg?7175',
+ 'product_name': 'Lenovo Laptop Thinkpad X140e  Charger 20V 3.25A 65W - '
+                 'Complete  With Power Cable',
+ 'product_price': 'KSh 1,299',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-laptop-thinkpad-x140e-charger-20v-3.25a-65w-complete-with-power-cable-100393763.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:44:51 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=20)
+2024-03-05 13:44:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=21)
+2024-03-05 13:44:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=21)
+2024-03-05 13:44:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=20#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=21)
+2024-03-05 13:44:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=21)
+2024-03-05 13:44:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=21)
+2024-03-05 13:44:59 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lenovo-xiaoxin-air-handle-2.4ghz-wireless-mouse-mouse-166337312.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=31)
+2024-03-05 13:44:59 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lenovo-xiaoxin-air-handle-2.4ghz-wireless-mouse-mouse-166337312.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/3733661/1.jpg?1534',
+ 'product_name': 'Lenovo Lenovo Xiaoxin Air Handle 2.4ghz Wireless Mouse mouse',
+ 'product_price': 'KSh 4,013',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lenovo-xiaoxin-air-handle-2.4ghz-wireless-mouse-mouse-166337312.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:45:05 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=31)
+2024-03-05 13:45:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=30)
+2024-03-05 13:45:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=30)
+2024-03-05 13:45:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=30)
+2024-03-05 13:45:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=31#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=30)
+2024-03-05 13:45:05 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=30)
+2024-03-05 13:45:12 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-t430-t420-battery.-177783636.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=21)
+2024-03-05 13:45:13 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-t430-t420-battery.-177783636.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/6387771/1.jpg?1910',
+ 'product_name': 'Lenovo  T430 T420 BATTERY.',
+ 'product_price': 'KSh 8,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-t430-t420-battery.-177783636.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:45:22 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=21)
+2024-03-05 13:45:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=22)
+2024-03-05 13:45:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=22)
+2024-03-05 13:45:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=21#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=22)
+2024-03-05 13:45:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=22)
+2024-03-05 13:45:22 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=22)
+2024-03-05 13:45:26 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-refurbished-thinkcentre-m710s-core-i5-7th-gen-8gb-ram-500gb-hdd-sff-desktop-only-159164181.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=30)
+2024-03-05 13:45:26 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-refurbished-thinkcentre-m710s-core-i5-7th-gen-8gb-ram-500gb-hdd-sff-desktop-only-159164181.html>
+{'availability': '7 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/18/1461951/1.jpg?6206',
+ 'product_name': 'Lenovo Refurbished ThinkCentre M710s Core I5 7th Gen 8GB RAM '
+                 '500GB HDD SFF Desktop Only',
+ 'product_price': 'KSh 19,900',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-refurbished-thinkcentre-m710s-core-i5-7th-gen-8gb-ram-500gb-hdd-sff-desktop-only-159164181.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 Months\xa0'}
+2024-03-05 13:45:37 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=30)
+2024-03-05 13:45:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=29)
+2024-03-05 13:45:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=29)
+2024-03-05 13:45:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=29)
+2024-03-05 13:45:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=30#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=29)
+2024-03-05 13:45:37 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=29)
+2024-03-05 13:45:48 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-laptop-thinkpad-x270-x250-x260-t440p-t440s-t450-charger-20v-3.25a-65w-usb-pin-97025816.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=22)
+2024-03-05 13:45:48 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-laptop-thinkpad-x270-x250-x260-t440p-t440s-t450-charger-20v-3.25a-65w-usb-pin-97025816.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/61/852079/1.jpg?1849',
+ 'product_name': 'Lenovo Laptop Thinkpad X270 , X250 , X260, T440p, T440s , '
+                 'T450, Charger 20V 3.25A 65W USB Pin',
+ 'product_price': 'KSh 999',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-laptop-thinkpad-x270-x250-x260-t440p-t440s-t450-charger-20v-3.25a-65w-usb-pin-97025816.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:45:50 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=22)
+2024-03-05 13:45:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=23)
+2024-03-05 13:45:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=23)
+2024-03-05 13:45:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=22#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=23)
+2024-03-05 13:45:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=23)
+2024-03-05 13:45:51 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=23)
+2024-03-05 13:45:57 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-thinkpad-t470s-refurbished-core-i7-7th-gen-16gb-ram-512gb-ssd-dos-14-162981477.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=29)
+2024-03-05 13:45:58 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-thinkpad-t470s-refurbished-core-i7-7th-gen-16gb-ram-512gb-ssd-dos-14-162981477.html>
+{'availability': '4 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/4189261/1.jpg?4961',
+ 'product_name': 'Lenovo Thinkpad T470s Refurbished -Core I7 -7th Gen-16GB RAM '
+                 '-512GB SSD-Dos-14',
+ 'product_price': 'KSh 46,999',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-thinkpad-t470s-refurbished-core-i7-7th-gen-16gb-ram-512gb-ssd-dos-14-162981477.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': '6 months'}
+2024-03-05 13:46:07 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=29)
+2024-03-05 13:46:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=28)
+2024-03-05 13:46:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=28)
+2024-03-05 13:46:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=28)
+2024-03-05 13:46:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=29#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=28)
+2024-03-05 13:46:07 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=28)
+2024-03-05 13:46:14 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-thinkpad-t410-t510-t520-w510-battery.-122632896.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=23)
+2024-03-05 13:46:14 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-thinkpad-t410-t510-t520-w510-battery.-122632896.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/69/8236221/1.jpg?9926',
+ 'product_name': 'Lenovo ThinkPad T410 T510 T520 W510 Battery.',
+ 'product_price': 'KSh 6,000',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-thinkpad-t410-t510-t520-w510-battery.-122632896.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:46:28 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-small-pin-adapter.-150966255.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=28)
+2024-03-05 13:46:29 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-small-pin-adapter.-150966255.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/55/2669051/1.jpg?3344',
+ 'product_name': 'Lenovo Small Pin Adapter.',
+ 'product_price': 'KSh 6,500',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-small-pin-adapter.-150966255.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:46:34 [scrapy] DEBUG: Retrying <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=24#catalog-listing> (failed 1 times): User timeout caused connection failure: Getting https://www.jumia.co.ke/catalog/?q=lenovo&page=24 took longer than 15.0 seconds..
+2024-03-05 13:46:36 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=28)
+2024-03-05 13:46:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=27)
+2024-03-05 13:46:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=27)
+2024-03-05 13:46:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=27)
+2024-03-05 13:46:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=28#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=27)
+2024-03-05 13:46:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=27)
+2024-03-05 13:46:44 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=23)
+2024-03-05 13:46:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=24)
+2024-03-05 13:46:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=24)
+2024-03-05 13:46:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=23#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=24)
+2024-03-05 13:46:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=24)
+2024-03-05 13:46:44 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=24)
+2024-03-05 13:46:51 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-lp75-bt5.3-true-wireless-headphones-with-mic-black-123435980.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=27)
+2024-03-05 13:46:51 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-lp75-bt5.3-true-wireless-headphones-with-mic-black-123435980.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/08/9534321/1.jpg?3970',
+ 'product_name': 'Lenovo LP75 BT5.3 True Wireless Headphones With Mic-Black',
+ 'product_price': 'KSh 2,229',
+ 'product_rating': '5 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-lp75-bt5.3-true-wireless-headphones-with-mic-black-123435980.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:46:57 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=27)
+2024-03-05 13:46:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=26)
+2024-03-05 13:46:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=26)
+2024-03-05 13:46:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=26)
+2024-03-05 13:46:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=26)
+2024-03-05 13:46:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=27#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=26)
+2024-03-05 13:46:57 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=26)
+2024-03-05 13:47:05 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-pad-pro-2022-wifi-tablet-11.2-inch-6gb128gb-android-12-123144398.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=24)
+2024-03-05 13:47:05 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-pad-pro-2022-wifi-tablet-11.2-inch-6gb128gb-android-12-123144398.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/89/3441321/1.jpg?4281',
+ 'product_name': 'Lenovo Pad Pro 2022 WiFi Tablet, 11.2 Inch, 6GB+128GB, '
+                 'Android 12',
+ 'product_price': 'KSh 63,299',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-pad-pro-2022-wifi-tablet-11.2-inch-6gb128gb-android-12-123144398.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:47:13 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=25#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=24)
+2024-03-05 13:47:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=25)
+2024-03-05 13:47:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=25)
+2024-03-05 13:47:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=24#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=25)
+2024-03-05 13:47:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=25)
+2024-03-05 13:47:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=26#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=25)
+2024-03-05 13:47:13 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/catalog/?q=lenovo&page=50#catalog-listing> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=25)
+2024-03-05 13:47:18 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-type-c-laptop-charger-20v-3.25a-65w-complete-with-power-cable-162731355.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=26)
+2024-03-05 13:47:19 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-type-c-laptop-charger-20v-3.25a-65w-complete-with-power-cable-162731355.html>
+{'availability': '8 units left',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/55/3137261/1.jpg?7084',
+ 'product_name': 'Lenovo TYPE-C LAPTOP CHARGER 20V 3.25A 65W COMPLETE WITH '
+                 'POWER CABLE',
+ 'product_price': 'KSh 3,700',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-type-c-laptop-charger-20v-3.25a-65w-complete-with-power-cable-162731355.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:47:28 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/lenovo-xt81-bt5.3-true-wireless-earphone-low-latency-game-91818836.html> (referer: https://www.jumia.co.ke/catalog/?q=lenovo&page=25)
+2024-03-05 13:47:28 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/lenovo-xt81-bt5.3-true-wireless-earphone-low-latency-game-91818836.html>
+{'availability': 'In stock',
+ 'product_brand': 'Lenovo',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/881819/1.jpg?4836',
+ 'product_name': 'Lenovo XT81 BT5.3 True Wireless Earphone Low Latency Game',
+ 'product_price': 'KSh 1,608',
+ 'product_rating': '0 out of 5',
+ 'product_url': 'https://www.jumia.co.ke/lenovo-xt81-bt5.3-true-wireless-earphone-low-latency-game-91818836.html',
+ 'return_policy': 'Easy Return, Quick Refund.',
+ 'warranty': 'Missing data'}
+2024-03-05 13:47:28 [scrapy] INFO: Closing spider (finished)
+2024-03-05 13:47:28 [scrapy] INFO: Stored json feed (50 items) in: search_data.json
+2024-03-05 13:47:28 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 1,
+ 'downloader/request_bytes': 101321,
+ 'downloader/request_count': 102,
+ 'downloader/request_method_count/GET': 102,
+ 'downloader/response_bytes': 3392059,
+ 'downloader/response_count': 101,
+ 'downloader/response_status_count/200': 101,
+ 'dupefilter/filtered': 245,
+ 'elapsed_time_seconds': 772.350729,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 5, 11, 47, 28, 744636, tzinfo=datetime.timezone.utc),
+ 'httpcache/firsthand': 100,
+ 'httpcache/hit': 1,
+ 'httpcache/miss': 101,
+ 'httpcache/store': 100,
+ 'httpcompression/response_bytes': 17592506,
+ 'httpcompression/response_count': 101,
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 441,
+ 'log_count/INFO': 8,
+ 'memusage/max': 112398336,
+ 'memusage/startup': 89661440,
+ 'request_depth_max': 26,
+ 'response_received_count': 101,
+ 'retry/count': 1,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 1,
+ 'scheduler/dequeued': 102,
+ 'scheduler/dequeued/memory': 102,
+ 'scheduler/enqueued': 102,
+ 'scheduler/enqueued/memory': 102,
+ 'start_time': datetime.datetime(2024, 3, 5, 11, 34, 36, 393907, tzinfo=datetime.timezone.utc)}
+2024-03-05 13:47:28 [scrapy] INFO: Spider closed (finished)

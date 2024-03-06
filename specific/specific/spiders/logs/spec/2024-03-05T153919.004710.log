@@ -1,0 +1,26 @@
+2024-03-05 15:39:19 [scrapy] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/core/engine.py", line 181, in _next_request
+    request = next(self.slot.start_requests)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/specific/specific/spiders/spec.py", line 17, in start_requests
+    yield scrapy.Request(url=url, callback=self.parse)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/http/request/__init__.py", line 93, in __init__
+    self._set_url(url)
+  File "/home/colonel/jumia_scrapper/env/lib/python3.11/site-packages/scrapy/http/request/__init__.py", line 133, in _set_url
+    raise TypeError(f"Request url must be str, got {type(url).__name__}")
+TypeError: Request url must be str, got dict
+2024-03-05 15:39:19 [scrapy] INFO: Closing spider (finished)
+2024-03-05 15:39:19 [scrapy] INFO: Stored json feed (0 items) in: tracked_item_data.json
+2024-03-05 15:39:19 [scrapy] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.034816,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 5, 13, 39, 19, 534835, tzinfo=datetime.timezone.utc),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'memusage/max': 78684160,
+ 'memusage/startup': 78684160,
+ 'start_time': datetime.datetime(2024, 3, 5, 13, 39, 19, 500019, tzinfo=datetime.timezone.utc)}
+2024-03-05 15:39:19 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,19 @@
+<table border="1">
+    <tr >
+       <th>Product Name</th>
+       <th>Product Price</th>
+       <th>Product Url</th>
+       <th>Product Image</th>
+       <th>Product Brand</th>
+       <th>Availability</th>
+    </tr>
+    {% for row in rows %}
+    <tr>
+       <td>{{ row.product_name }}</td>
+       <td>{{ row.product_price }}</td>
+       <td>{{ row.product_url }}</td>
+       <td>{{ row.product_image }}</td>
+       <td>{{ row.product_brand }}</td>
+       <td>{{ row.availability }}</td>
+    {% endfor %}
+ </table>

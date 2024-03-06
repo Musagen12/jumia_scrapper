@@ -28,3 +28,4 @@ These commands were used to get the general information from a page. They are a 
     getting the price of the product            product.css("div.prc::text").get()
     getting the link to the product             product.css("a.core").attrib['href']
     getting the image link                      product.css("a img.img").attrib['data-src']
+    

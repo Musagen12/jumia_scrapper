@@ -1,0 +1,35 @@
+2024-03-05 15:31:58 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/black-white-black-white-whisky-750ml-49559205.html> (referer: None)
+2024-03-05 15:31:58 [scrapy] DEBUG: Scraped from <200 https://www.jumia.co.ke/black-white-black-white-whisky-750ml-49559205.html>
+{'availability': 'Few units left',
+ 'product_brand': 'Black & White',
+ 'product_image': 'https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/295594/1.jpg?0466',
+ 'product_name': 'Black & White Black & White Whisky - 750ml',
+ 'product_price': 'KSh 1,243',
+ 'product_url': 'https://www.jumia.co.ke/black-white-black-white-whisky-750ml-49559205.html'}
+2024-03-05 15:31:58 [scrapy] INFO: Closing spider (finished)
+2024-03-05 15:31:58 [scrapy] INFO: Stored json feed (1 items) in: tracked_item_data.json
+2024-03-05 15:31:58 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 266,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 30417,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.803344,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 5, 13, 31, 58, 641504, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 107805,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 8,
+ 'memusage/max': 92569600,
+ 'memusage/startup': 92569600,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2024, 3, 5, 13, 31, 56, 838160, tzinfo=datetime.timezone.utc)}
+2024-03-05 15:31:58 [scrapy] INFO: Spider closed (finished)

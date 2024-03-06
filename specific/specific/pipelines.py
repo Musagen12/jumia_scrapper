@@ -21,6 +21,14 @@ class ScrapperPipeline:
             if '('  in value:
                 adapter[brand] = "Brand not available"
 
+        ## Price --> convert to float
+        price_keys = ['product_price']
+        for price_key in price_keys:
+            value4 = adapter.get(price_key)
+            value4 = value4.replace('KSh', '').replace(',', '')  
+            adapter[price_key] = float(value4)
+           
+
         # Activated if a product doesn't have a warranty/ availablilty data(warranty=null or availability=null)
         availability = ['availability']
         for x in availability:
@@ -28,7 +36,19 @@ class ScrapperPipeline:
             if value2 == None:
                 adapter[x] = "Missing data"
 
+
         return item
+    
+
+# class ConvertPriceToFloat:
+#     def process_item(self, item, spider):
+
+#         adapter = ItemAdapter(item)
+#         price_keys = ['product_price']
+#         for price in price_keys:
+#             num = adapter.get(price_keys)
+#             num = num.replace('KSh', '')
+#             adapter[price] = float(num)
     
 class SaveIntoDb:
     def __init__(self):

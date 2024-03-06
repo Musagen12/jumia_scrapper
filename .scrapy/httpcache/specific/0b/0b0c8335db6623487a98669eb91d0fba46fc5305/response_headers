@@ -1,0 +1,32 @@
+Date: Sun, 03 Mar 2024 12:24:24 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Vary: X-Device, X-Language, X-ABTests, X-Scenario, X-OS
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Cache-Control: no-transform
+Pragma: no-cache
+Set-Cookie: sponsoredUserId=410113349351715601765e46bf81f91a; expires=Mon, 03-Mar-2025 12:24:24 GMT; Max-Age=31536000; path=/; domain=.jumia.co.ke; secure; samesite=Lax
+Set-Cookie: regeneratedSponsoredUserId=1; expires=Fri, 03-May-2024 12:24:24 GMT; Max-Age=5270400; path=/; domain=.jumia.co.ke; secure; httponly; samesi
+Set-Cookie: newsletter=1; expires=Sat, 03-Mar-2029 12:24:24 GMT; Max-Age=157766400; path=/; domain=.jumia.co.ke; secure; httponly; same
+Set-Cookie: sb-closed=true; expires=Sun, 10-Mar-2024 12:24:24 GMT; Max-Age=604800; path=/; domain=.jumia.co.ke; secure; httponly; samesit
+Set-Cookie: ABTests=%5B%7B%22name%22%3A%22CLP%22%2C%22scenario%22%3A%22B%22%2C%22updatedAt%22%3A1680685841%7D%2C%7B%22name%22%3A%22Cart%22%2C%22scenario%22%3A%22S%22%2C%22updatedAt%22%3A1621323098%7D%2C%7B%22name%22%3A%22SponProdPdp%22%2C%22scenario%22%3A%22A%22%2C%22updatedAt%22%3A1698939590%7D%5D; expires=Mon, 03-Mar-2025 12:24:24 GMT; Max-Age=31536000; path=/; domain=.jumia.co.ke; secure; httponly; sames
+Set-Cookie: SOLSESSID=434ee04d59e41e1d78bdbe35223553d5; expires=Sun, 03-Mar-2024 12:48:24 GMT; Max-Age=1440; path=/; domain=.jumia.co.ke; httponly; samesite=Lax
+Set-Cookie: userLanguage=en_KE; expires=Mon, 03-Mar-2025 12:24:24 GMT; Max-Age=31536000; path=/; domain=.jumia.co.ke; secure; httponly; sames
+Set-Cookie: __cf_bm=N7XjEJbV851.F1sEcTXKLP82LRNLJw5WOTGI5gWAcls-1709468664-1.0.1.1-L5PmF1njUp6fE5QnQQJMKGVfKpCzeRSl8A7iTZIREzGJb8DCk7g2jrixTxVGOrTKLvOuQToBarD5ZzS79Rn2UQ; path=/; expires=Sun, 03-Mar-24 12:54:24 GMT; domain=.jumia.co.ke; HttpOnly; Secure; SameSite=None
+X-Cacheable: NO:Not Cacheable
+Age: 0
+X-Proxy: ip-10-109-65-228.eu-west-1.compute.internal
+X-Cache: MISS
+X-Cache-Hits: 0
+Access-Control-Allow-Origin: *
+X-Lb: nginx-aws-a01
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Cf-Oa: 1
+Content-Encoding: gzip
+Cf-Cache-Status: DYNAMIC
+Server: cloudflare
+Cf-Ray: 85e99a6daa8f7326-LHR

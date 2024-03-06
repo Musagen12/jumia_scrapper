@@ -30,6 +30,10 @@ class ScrapperPipeline:
 
         return item
     
+    
+
+
+
 class SaveIntoDb:
     def __init__(self):
         ## Connection Details

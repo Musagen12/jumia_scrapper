@@ -1,0 +1,31 @@
+2024-03-05 15:25:25 [scrapy] DEBUG: Crawled (200) <GET https://www.jumia.co.ke/> (referer: None) ['cached']
+2024-03-05 15:25:42 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.jumia.co.ke/> (referer: https://www.jumia.co.ke/)
+2024-03-05 15:25:42 [scrapy] INFO: Closing spider (finished)
+2024-03-05 15:25:42 [scrapy] INFO: Stored json feed (0 items) in: search_data.json
+2024-03-05 15:25:42 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 216,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 64275,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 17.155514,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 5, 13, 25, 42, 855097, tzinfo=datetime.timezone.utc),
+ 'httpcache/hit': 1,
+ 'httpcompression/response_bytes': 402783,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 46,
+ 'log_count/INFO': 8,
+ 'memusage/max': 89452544,
+ 'memusage/startup': 89452544,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2024, 3, 5, 13, 25, 25, 699583, tzinfo=datetime.timezone.utc)}
+2024-03-05 15:25:42 [scrapy] INFO: Spider closed (finished)

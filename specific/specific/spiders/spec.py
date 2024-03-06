@@ -5,14 +5,17 @@ from specific.items import ProductItems
 class SpecificSpider(scrapy.Spider):
     name = "spec"
     allowed_domains = ["jumia.co.ke"]
-    #place the url of a specific item
-    start_urls = ["https://www.jumia.co.ke/black-white-black-white-whisky-750ml-49559205.html"]
 
     custom_settings = {
         'FEEDS': {
             'tracked_item_data.json': {'format': 'json', 'ovewright': True}
         }
     }
+
+    def start_requests(self):
+        url = self.cat
+        yield scrapy.Request(url=url, callback=self.parse)
+
 
     def parse(self, response):
         products = response.css("article.prd")

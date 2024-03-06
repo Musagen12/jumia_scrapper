@@ -1,0 +1,26 @@
+Date: Tue, 05 Mar 2024 11:42:18 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Vary: X-Device, X-Language, X-ABTests, X-Scenario, X-OS
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Cache-Control: no-transform
+Pragma: no-cache
+Set-Cookie: sb-closed=true; expires=Tue, 12-Mar-2024 11:42:18 GMT; Max-Age=604800; path=/; domain=.jumia.co.ke; secure; httponly; samesit
+Set-Cookie: SOLSESSID=a5cc62368c7376359e70fd429923267e; expires=Tue, 05-Mar-2024 12:06:18 GMT; Max-Age=1440; path=/; domain=.jumia.co.ke; httponly; samesite=Lax
+X-Cacheable: NO:Not Cacheable
+Age: 0
+X-Proxy: ip-10-109-82-210.eu-west-1.compute.internal
+X-Cache: MISS
+X-Cache-Hits: 0
+Access-Control-Allow-Origin: *
+X-Lb: nginx-aws-b01
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Cf-Oa: 1
+Content-Encoding: gzip
+Cf-Cache-Status: DYNAMIC
+Server: cloudflare
+Cf-Ray: 85f9d7804ea97743-LHR
