@@ -46,11 +46,6 @@ On the browser search:
     The scraped data will be saved in a CSV file named jumia_products.csv. You can open this file using any spreadsheet application or analyze it using Python.
 
 
-<h3>Configuration</h3>
-
-    TARGET_URL: URL of the Jumia category page to scrape.
-    HEADERS: HTTP headers for the requests to mimic a real browser (can be customized in scraper.py).
-
 <h3>Contributing</h3>
 
 Contributions are welcome! If you have suggestions for improvements, feel free to fork the repository and create a pull request.
