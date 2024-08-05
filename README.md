@@ -10,45 +10,35 @@ Features
 
 <h3>Technologies Used</h3>
 
-    Python: Programming language used to write the scraper.
-    BeautifulSoup: Library for parsing HTML and extracting data from web pages.
-    Requests: Library to send HTTP requests and receive responses.
-    Pandas: Library to handle data manipulation and storage.
+Python: Programming language used to write the scraper.
+BeautifulSoup: Library for parsing HTML and extracting data from web pages.
+Requests: Library to send HTTP requests and receive responses.
+Pandas: Library to handle data manipulation and storage.
 
 <h3>Prerequisites</h3>
 
 Before running the project, ensure you have the following installed:
 
-    Python 3.x
-    Required Python libraries (listed in requirements.txt)
-
+Python 3.x
+    
 <h3>Installation</h3>
 
-    Clone the repository:
-
+Clone the repository:
     sh
 
-git clone https://github.com/your-username/jumia-web-scraper.git
-cd jumia-web-scraper
+    git clone https://github.com/your-username/jumia-web-scraper.git
+    cd jumia-web-scraper
 
-Create and activate a virtual environment (optional but recommended):
-
-sh
-
-python3 -m venv venv
-source venv/bin/activate
-
-Install the required libraries:
-
-sh
-
+    python3 -m venv venv
+    source venv/bin/activate
+    
     pip install -r requirements.txt
+    
 <h3>Usage</h3>
 
-    Run the scraper:
+Run the scraper:
 
     sh
-
     python scraper.py
 
     Specify the URL of the Jumia category page you want to scrape:
