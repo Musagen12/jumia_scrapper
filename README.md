@@ -2,11 +2,7 @@
 <h3>Project Overview</h3>
 
 This project involves developing a web scraper to extract product information from Jumia, an e-commerce website. The scraper will gather data such as product names, prices, ratings, and availability. This data can be used for analysis, price comparison, or other purposes.
-Features
-
-    Scraping Product Information: Extract product details including name, price, rating, and availability.
-    Data Storage: Save the scraped data into a CSV file for easy access and analysis.
-    Error Handling: Manage errors and exceptions to ensure the scraper runs smoothly.
+Features Scraping Product Information: Extract product details including name, price, rating, and availability, Data Storage: Save the scraped data into a CSV file for easy access and analysis and Error Handling: Manage errors and exceptions to ensure the scraper runs smoothly.
 
 <h3>Technologies Used</h3>
 
@@ -43,7 +39,7 @@ Run the scraper:
     scrapyrt
 
 On the browser search:
-    http://127.0.0.1:9080/crawl.json?spider_name=test&start_requests=true&crawl_args={'cat':'lenovo laptops'})
+    http://127.0.0.1:9080/crawl.json?spider_name=test&start_requests=true&crawl_args={'cat': item})
     
 
     View the results:
