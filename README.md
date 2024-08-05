@@ -39,10 +39,12 @@ Clone the repository:
 Run the scraper:
 
     sh
-    python scraper.py
+    flask --app hello run
+    scrapyrt
 
-    Specify the URL of the Jumia category page you want to scrape:
-    Update the TARGET_URL variable in scraper.py with the desired URL.
+On the browser search:
+    http://127.0.0.1:9080/crawl.json?spider_name=test&start_requests=true&crawl_args={'cat':'lenovo laptops'})
+    
 
     View the results:
     The scraped data will be saved in a CSV file named jumia_products.csv. You can open this file using any spreadsheet application or analyze it using Python.
