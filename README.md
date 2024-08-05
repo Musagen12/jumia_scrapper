@@ -35,7 +35,9 @@ Clone the repository:
 Run the scraper:
 
     sh
-    flask --app hello run
+    export FLASK_APP=api.py
+
+    flask run
     scrapyrt
 
 On the browser search:
