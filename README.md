@@ -1,4 +1,4 @@
-Web Scraping Project - Jumia
+<h1>Web Scraping Project - Jumia</h1>
 Project Overview
 
 This project involves developing a web scraper to extract product information from Jumia, an e-commerce website. The scraper will gather data such as product names, prices, ratings, and availability. This data can be used for analysis, price comparison, or other purposes.
