@@ -71,9 +71,6 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 Contact
 
-If you have any questions or issues, please open an issue in the repository or contact the project maintainer:
-
-    Your Name: your-email@example.com
-    GitHub: your-username
+If you have any questions or issues, please open an issue in the repository.
 
 Happy scraping! 👍👍
